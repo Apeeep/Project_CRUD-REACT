@@ -1,0 +1,250 @@
+.BG {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 50px;
+  height: 300px;
+}
+
+.BG-hs {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 50px;
+  height: 300px;
+  transform: scaleX(-1);
+}
+
+.BG-404 {
+  height: 300px;
+}
+
+.NF404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NF404 h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: #232931;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background: linear-gradient(180deg, #232931, #31363e);
+  font-size: 1.3em;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 10px black;
+}
+
+.header header {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  color: #4ECCA3;
+}
+
+.header header .logo {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header header .logo img {
+  width: 25%;
+}
+
+.header header .logo h1 {
+  width: 200px;
+  font-size: 1.2em;
+}
+
+.header header ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.header header ul li:hover {
+  filter: drop-shadow(0 0 5px #4ECCA3);
+}
+
+.header header ul li i {
+  font-size: 1em;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+.header header ul li span {
+  color: #4ECCA3;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form {
+  position: absolute;
+  margin-top: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4ECCA3;
+}
+
+.btn-form input {
+  background-color: #232931;
+  color: #4ECCA3;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  filter: drop-shadow(2px 2px 2px black);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-form input:hover {
+  background-color: #FFF;
+  color: #232931;
+}
+
+.container {
+  background-color: #4ECCA3;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .form-section {
+  width: 50%;
+  padding: 30px 0;
+  background-color: #232931;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 10px #FFF);
+}
+
+.container .form-section h1 {
+  color: #4ECCA3;
+  font-size: 3em;
+}
+
+.container .form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4ECCA3;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.container .form-section form input {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container .form-section form select {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.container .form-section form button {
+  margin-top: 20px;
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.7em;
+  cursor: pointer;
+  transition: all 0.1s;
+  background-color: #4ECCA3;
+  color: #232931;
+}
+
+.container .form-section form button:hover {
+  background-color: #232931;
+  border: 2px solid #4ECCA3;
+  color: #4ECCA3;
+}
+
+.container-table {
+  background-color: #4ECCA3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.container-table .table {
+  padding: 20px;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #44b48e;
+  border-radius: 20px;
+}
+
+.container-table table {
+  width: 100%;
+}
+
+.container-table table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.container-table table td {
+  background-color: #232931;
+  color: #4ECCA3;
+  font-size: 1.5em;
+}
+
+.container-table table th {
+  width: 20%;
+  font-size: 2em;
+  color: #232931  ;
+  background-color: #4ECCA3;
+}
